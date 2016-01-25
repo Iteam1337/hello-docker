@@ -1,4 +1,10 @@
 image: dockerfile/nginx
 script:
   - echo hello world
-
+deploy:
+  rancher:
+    url: http://192.168.110.156:8080
+    access_key: E138505E04E7B511BA30
+    secret_key: sM2WpAZ9wLXwYgBKJE2Yk7ZrVPZyaaXWkJFWiDi4
+    service: hello-docker
+    docker_image: hello-docker:latest
