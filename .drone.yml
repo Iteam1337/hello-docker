@@ -8,4 +8,4 @@ deploy:
     access_key: E138505E04E7B511BA30
     secret_key: sM2WpAZ9wLXwYgBKJE2Yk7ZrVPZyaaXWkJFWiDi4
     service: Uppdragshuset-App1/hello-docker
-    docker_image: dockerfile/nginx
+    docker_image: dockerfile/nginx:latest
