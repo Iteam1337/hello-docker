@@ -10,11 +10,11 @@ publish:
 
 #deploy:
 #  rancher:
-#    url: http://192.168.110.132:8080
+#    url: http://192.168.110.156:8080
 #    access_key: E138505E04E7B511BA30
 #    secret_key: sM2WpAZ9wLXwYgBKJE2Yk7ZrVPZyaaXWkJFWiDi4
 #    service: Uppdragshuset-App1/hello-docker
-#    docker_image: nginx:latest
+#    docker_image: iteamoperations/uppdragshuset
 
 notify:
   email:
