@@ -1,6 +1,5 @@
 publish:
   docker:
-    registry: https://hub.docker.com/
     username: iteamoperations
     password: whitehouse
     email: operations@iteam.se
