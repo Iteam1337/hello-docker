@@ -1,12 +1,23 @@
 publish:
   docker:
+    registry: https://hub.docker.com/
+    username: iteamoperations
+    password: whitehouse
+    email: operations@iteam.se
+    repo: uppdragshuset/hello-docker
+    tag: latest
     file: Dockerfile
     insecure: false
     
 deploy:
   rancher:
-    url: http://192.168.110.156:8080
+    url: http://192.168.110.132:8080
     access_key: E138505E04E7B511BA30
     secret_key: sM2WpAZ9wLXwYgBKJE2Yk7ZrVPZyaaXWkJFWiDi4
     service: Uppdragshuset-App1/hello-docker
     docker_image: nginx:latest
+
+notify:
+  email:
+    recipients:
+      - mats@iteam.se
