@@ -7,7 +7,7 @@ publish:
     tag: latest
     file: Dockerfile
     insecure: false
-    
+
 deploy:
   rancher:
     url: http://192.168.110.132:8080
@@ -20,3 +20,4 @@ notify:
   email:
     recipients:
       - mats@iteam.se
+      - acr@iteam.se
