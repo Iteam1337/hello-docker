@@ -1,10 +1,9 @@
 publish:
   docker:
-    registry: https://index.docker.io/v1
     username: iteamoperations
     password: whitehouse
     email: operations@iteam.se
-    repo: uppdragshuset/hello-docker
+    repo: iteamoperations/uppdragshuset
     tag: latest
     file: Dockerfile
     insecure: false
