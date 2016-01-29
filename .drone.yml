@@ -4,7 +4,7 @@ publish:
     password: whitehouse
     email: operations@iteam.se
     repo: iteamoperations/uppdragshuset
-    tag: latest
+    tag: develop
     file: Dockerfile
     insecure: false
     when:
