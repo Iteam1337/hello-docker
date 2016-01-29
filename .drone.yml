@@ -16,14 +16,14 @@ deploy:
     service: Uppdragshuset-App1/hello-docker
     docker_image: iteamoperations/uppdragshuset
 
-plugin:
-  name: Rancher
-  desc: Trigger a Rancher deployment.
-  type: deploy
-  image: plugins/drone-rancher
-  labels:
-    - rancher
-    - docker
+#plugin:
+#  name: Rancher
+#  desc: Trigger a Rancher deployment.
+#  type: deploy
+#  image: plugins/drone-rancher
+#  labels:
+#    - rancher
+#    - docker
 
 notify:
   email:
