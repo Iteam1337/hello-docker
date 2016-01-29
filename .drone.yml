@@ -7,8 +7,6 @@ publish:
     tag: develop
     file: Dockerfile
     insecure: false
-    when:
-      - develop
 
 deploy:
   rancher:
